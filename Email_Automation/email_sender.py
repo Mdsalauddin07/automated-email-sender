@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 
 # --- CONFIGURATION ---
 SENDER_EMAIL = "salauddin748356@gmail.com"
-SENDER_PASSWORD = ""  
+SENDER_PASSWORD = "here your app password"  
 
 SUBJECT_FILE = "subject.txt"
 MESSAGE_FILE = "message.txt"
@@ -55,3 +55,4 @@ for email in receivers:
     send_email(email)
 
 print("\nAll emails processed.")
+
